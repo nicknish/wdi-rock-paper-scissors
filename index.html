@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+	<title>Rock Paper Scissors</title>
+</head>
+<body>
+	<div class="container">
+    
+		<span></span>
+
+  	<h1>Choose Your Weapon</h1>
+  
+		<div class="clearfix">
+			<div class="button rock" id="rock" onclick="userSelection(this)">
+				<img src="images/rock.png" alt="">
+			</div>
+			<div class="button paper" id="paper" onclick="userSelection(this)">
+				<img src="images/toiletpaper.jpg" alt="">
+			</div>
+			<div class="button scissors" id="scissors" onclick="userSelection(this)">
+				<img src="images/scissors.png" alt="">
+			</div>
+		</div>
+   
+  	<h2 id="computerHand"></h2>
+  	<h3 id="result"></h3>
+ 
+	</div>
+
+
+<script src="script.js"></script>
+</body>
+</html>
